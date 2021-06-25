@@ -1,0 +1,33 @@
+.nav-button-left {
+    position:absolute;
+    left:0px;
+    top:40%;
+}
+
+.nav-button-right {
+    position:absolute;
+    right:0px;
+    top:40%;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.owl-dots button.owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0px 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #333;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
